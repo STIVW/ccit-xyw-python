@@ -30,9 +30,9 @@ browser.refresh()
 
 
 
-browser.find_element_by_id("username").send_keys("18091730222")
+browser.find_element_by_id("username").send_keys("180917302**")
 browser.find_element_by_id("pwd_tip").click()
-browser.find_element_by_id("pwd").send_keys("ccit121016")
+browser.find_element_by_id("pwd").send_keys("ccit******")
 
 element=browser.find_element_by_id("xiala")
 element.click()
