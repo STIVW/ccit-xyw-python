@@ -38,7 +38,6 @@ RUN apt-get install rsyslog -y && \
     sed -i "s/#cron.*/cron.*/g" /etc/rsyslog.d/50-default.conf 
 
 RUN export DEBIAN_FRONTEND=noninteractive \
-    && apt-get update \
     && apt-get install -y tzdata \
     && ln -fs /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && dpkg-reconfigure --frontend noninteractive tzdata
