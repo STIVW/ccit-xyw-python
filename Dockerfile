@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER shenyoutao <869862584@qq.com>
+MAINTAINER stivw <869862584@qq.com>
 
 COPY chrom.py /root
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
