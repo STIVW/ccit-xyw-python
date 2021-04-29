@@ -1,0 +1,5 @@
+48 6 * * * python3 /root/chrom.py
+13 7 * * * python3 /root/chrom.py
+#* * * * *  date > /root/date.txt
+55 6 * * * python3 /root/chrom.py
+5 7 * * * python3 /root/chrom.py
